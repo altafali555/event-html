@@ -1,0 +1,86 @@
+/* Style for body with background image */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(image/pexels-weddingphotography-1444442.jpg);
+background-size: cover;
+   /* Ensures the image covers the entire background */
+  color: #333;
+}
+
+/* Style for the container */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: rgba(7, 5, 5, 0); /* Semi-transparent background for content */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  border: 2px solid orange; /* Thin orange border */
+  box-shadow: 0 0 15px orange; /* Neon light effect */
+}
+
+/* Header styles */
+.header {
+  background: rgba(7, 5, 5, 0);;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+/* Event details and RSVP form section styles */
+.event-details,
+.rsvp-form {
+  padding: 20px;
+  color: #fff;
+}
+
+.event-details h2,
+.rsvp-form h2 {
+  color: #ffffff;
+}
+
+/* Form label and input styles */
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #daf78b;
+  border-radius: 5px;
+}
+
+/* Button styles */
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #6d59b0;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #ff4f41;
+}
+
+/* Confirmation message style */
+#confirmationMessage {
+  margin-top: 15px;
+  font-weight: bold;
+  color: green;
+  text-align: center;
+}
+
